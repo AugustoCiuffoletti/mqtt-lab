@@ -20,6 +20,8 @@ Per realizzare l'accesso al server MQTT tramite il browser è necessario utilizz
 
 In conclusione l'architettura software del Raspberry Pi consiste nel broker Mosquitto, configurato con interfaccia TCP (porta 1883) e Websocket (porta 9001) e un webserver nginx che fornisce una singola pagina contenente la "single page application" che comunica con il broker tramite i websocket.
 
+![Testo alternativo](arch.png)
+
 Le comunicazioni non sono cifrate per essere facilmente tracciabili con strumenti come Wireshark o forgiabili con PackETH.
 
 ### Preparazione della lezione
